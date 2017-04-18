@@ -1,0 +1,60 @@
+Proqramlasdirma paradiqmalari
+Proqramlama aleminde problemlere gore yaradilan usullarin nece formul halina getirileceyiyle elaqeli olan baslica 
+proqralama stilidir.Paradigmalar hansi yolla problemin helline catmasinnan elave hansi yollarin qadagan oldugunuda bildirir.
+1.imperative paradigms
+Mecburi programlama,bir veizyyet uzerinde programlama ve veziyyeti deyisdiren emrler uzerinde qurulur.Imperative programlar,
+kompyuterin sirali sekilde gerceklesdireceyi emrlerdir.Hesablamanin nece edilmesi onemlidir.Bu paradigma komyuterin 
+techizatina en uygun olanidir.Yaddasa qoyulmus melumatlar isdifade edilerek prosess icra edilir ve neticelerde yeniden yaddasin
+bir hissesine qoyulur.Bu sebebden programin hansi addimda oldugu yaddasin icinden basadusulebilendir.Burada yan tesirler 
+isdifade olunmagdadir ve buda oradaki sehvleri uze cixartmagda cetinlik yaradir ve yaddas idaresi proqramist terefinden idare 
+olunur.
+2.Functional paradigmalar
+Funksional paradigmalar butun alt programlari funksional olarag riyazi olarag qeyri resmi gosterer,argumentleri alr ve bir
+hell getirir.Hellin geri donmesi tamamiler daxil olunanlardan asilidir ve bir prossesin cagirilma muddeti ile hec bir elaqesi 
+yoxdur.funksiyanal paradigmalarin esas ustunluyu yuksek seviyyede mucerredliyin olmasi,xususen funksiya istifade edilende 
+programin bir cox detallari ortadan qalxar ve belece bir cox xetalarin islenmesinin qarsisi alinar.Ikinci olarag tapsiriq 
+programramlarinin olmamasi,funksiya paradigmalarinin emr imperative paradigmalardan daha cox riyazi ispat ve analizlere
+daha cox uymagini temin eliyir ve son olaraq tapsiriq emeliyyatlarinnan asililigin az olmasi,emrleri bir cox muxtelif 
+yolarla deyerlendirmesini icaze verir.Menfi terefleri ise daha az semereli olmasi,bir cox deyiskeni olan problemleri 
+imperative  programlama ile daha asan hell oluna bilir. Yaddasi avtamatik idare olunur.
+3.Logical paradigmalar.
+Mentiqsel paradigma problemin helline aciqlayici bir yanasma getirmekdedir.Umumiyyetle riyazi mentiqi esas alan bir 
+paradigmadir.Therom-prover ve model-generator problemin hellinden mesuliyyetli hissedir.Programlayici tewremleri  dogru 
+bir sekilde mentiqsel ifadelere cevirmekden ve teorem ispat edicisinden kontrol etmekden sorumludur.Basqalarinnan ferqli 
+olaraq procedural interpretation deyil mentiqsel ve declerative yorumlar de ede bilir.
+Bir eziyyetle elaqeli muxtelif iddialar olunar 
+ve bilinen butun gercekler ortaya cixar.Sonra sorgu hazirlanar.Komyuterin datalari saxalmsinda roluve mentiqi neticesi  
+oyreniler.Mentiqi paradigmalar 3 hisseye bolunur.
+1.Problemin neynen elaqedar olmasin mueyyenlesdiriler with definitions or declarations
+2.Aidiyyati faktlarin aciqlamasi
+3.Meqsedin sorgu seklinde aciqlamasi
+mentiqsel programlamamnin musbet ceheti iki yonludur.
+1.sistem problemi hell edirve bu proqramdaki steplerin sayini minimuma endirir.
+2.movcud olan bir programin quvvede olmasini ispat elemek asanddir.
+4.Object Oriented programlama paradigmasi  yazilimlari qarasiqligi baslamasiyla beraber yazilimin keyfiyyetinin qorunasbilmesi
+ve yeniden istifadesini artira bilmey ucun dusunulmusdur.bu paradigmada esas olan obyektlerin birbirleriyle olan munasibetini 
+mueyyen bir model halina getirmeydi.tek bir obyektin umumi halini tesvir edecey bir sinif yaradirig.Bu sinifler icerisndeki 
+data uzerinde deyisikler yapmagimiz gerekli olan funksionlari temin edilir.
+OOP teorisinde 4 baslica ozelliyin yerine yetirilmesi mecburidir bu ozelliylerin birini temin etmeyen dil saf OOP sayilmaz.
+1.Abstraction(Mucerredliliy)
+Mucerredlik deyende,obyektleri ve bezi hadiseleri umumilesdirmek anlasilmalidir.Her bir sey obyektdir ve olarin xususiyyetleri 
+var meselen bina ;rengi hundurluyu formasi ve s.OOP mucerredliyi sinif modeli ile heyata kecirdir.Sinifde o obyekte aid olan
+keyfiyyetler vardir.Amma sinif mucerred bir seydir birbasa istifade olunmaz.o sinifde yaradilan her bir obyekt ora aid olan
+butun xusisiyyetlere malikdir.Bunlar birbasa istifade oluna biler amma ozellikleri eyni olsada olarin deyerleri ferqli olacag.
+2.Encapsulation
+encopsulationin menasi odur ki, sinifde yaranan methodlar ve xusisiyyetler,bu sinifde isdifade edecek isddifadecilerden 
+gizlenmis olmasidir.Melumatlar ve onlarin uzerinde icra olunan kod (metotlar)bir yerde toplanib obyekti yaradir.Obyekti 
+tamamlayan sinifin ic ayrintilari,normal olarag proqramin qalan qismi ucun gorunmur.bir pbyekt sinfinin metot ve 
+informasiyalarini eyni saxlamaqla feqli bir proglama taktikasiyla yaratsagda bu sinif istifade eden program kodlarinda bir 
+deyisiklik elemeye ehtiyac qalmiyacag.
+3.Iheritance(miras almaq)
+OOP-de bir obyekt umumiyyetle bir obyekt sinifine aid bir numunedir.Meslene Albert Einstein,insan sinifinin bir orneyidir.Bir
+obyekt sinifinden alt sinifler yradila bilirse,toreme ozelliyi var demekdir.Mesleen INsan sinifi canli sinifinin bir alt 
+sinifidir.Ozunnen asagi sinif yarala bilen sinife baslica sinif (base,super or parent class) deyilir.
+Subclass yerine child class terinide isledirlir.asagi sinif obyektlerin ,torendikleri sinife aid ozellikleri alirlarsa,burada
+miras alma ozelliyi var.Bu menada miras alma xusisiyyeti bir OOP de ,bir obyekt sinifinden toredilen pbyekt sinifine aid 
+obyektler,ust sinif properties ve methods eyniyle alirlar.
+4.Polymorphism
+Polymorphism ferqli obyektlerin eyni mesaja ve ya hadiseye derqli sekilde cavab vere bilme qabiliyyetidir.Her obyekt sinifi 
+ozunun metotlarini encopsulatition ucun ve bu methodlari qaln qismi ucun gizli oldugunnan,ferqli sinifler eyni isimde bezi  
+metotlara sahib ola bilerler.
